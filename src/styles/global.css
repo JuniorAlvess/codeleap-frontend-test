@@ -1,31 +1,11 @@
 @import url(./typography.css);
 
 :root {
-  --primary-scroll: #7695EC;
-  --background-body: #ddd;
+  --background-body: #DDD;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  height: 0;
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: invisible;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--primary-scroll);
-  border-radius: 1rem;
-  transition: 0.2s ease-in-out;
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: var(--primary-scroll);
 }
 
 body {
