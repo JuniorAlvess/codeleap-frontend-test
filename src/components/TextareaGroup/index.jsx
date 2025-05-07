@@ -11,6 +11,7 @@ const TextareaGroup = ({ label, defaultValue, value, onChange, placeholder, isRe
         value={value}
         required={isRequired}
         onChange={onChange}
+        rows={4}
       />
     </Container>
   );
